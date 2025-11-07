@@ -1,8 +1,9 @@
-## 🌍 OMEGA — The Universal Problem-Solving Engine
+# 🌍 OMEGA — The Universal Problem-Solving Engine
 > We built an AI civilization that generated hypotheses, debated, and constructed solutions — for *any* problem in the world. 🚀
 
 ---
 
+![OMEGA Banner](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDgwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IzAyMDYxNzsiPgogIDxzdHlsZT4KICAgIC50aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogNjBweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGZpbGw6IHVybCgjZ3JhZCk7IH0KICAgIC5zdWJ0aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjBweDsgZmlsbDogIzk0YTNiODsgfQogICAgLmxvZ28geyBzdHJva2U6ICMyMmQzZWU7IHN0cm9rZS13aWR0aDogMi41OyBmaWxsOiBub25lOyB9CiAgICAubG9nby1nbG93IHsgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDAgOHB4ICMyMmQzZWUpOyB9CiAgPC9zdHlsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZTJlOGYwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMmQzZWU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8ZyBjbGFzcz0ibG9nby1nbG93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDEwMCkgc2NhbGUoMi41KSI+CiAgICA8cGF0aCBjbGFzcz0ibG9nbyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNC41IDEyLjc1bDcuNS03LjUgNy41IDcuNW0tMTUgMy4zNzVsNy41LTcuNSA3LjUgNy41IiAvPgogICAgPHBhdGggY2xhc3M9ImxvZ28iIGQ9Ik0xMiAyMWE5IDkgMCAxMDAtMTggOSA5IDAgMDAwIDE4eiIgc3Ryb2tlLW9wYWNpdHk9IjAuNSIgLz4KICA8L2c+CiAgPHRleHQgeD0iMjAwIiB5PSI5NSIgY2xhc3M9InRpdGxlIj5PTUVHQTwvdGV4dD4KICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgY2xhc3M9InN1bnRpdGxlIj5UaGUgVW5pdmVyc2FsIFByb2JsZW0tU29sdmluZyBFbmdpbmU8L3RleHQ+Cjwvc3ZnPg==)
 
 ## 📖 Introduction
 
@@ -136,7 +137,7 @@ graph TD
         direction TB
 
         subgraph "State & Logic"
-            App["App.tsx<br>(Main State, API Calls)"]
+            App["App.tsx\n(Main State, API Calls)"]
         end
 
         subgraph "UI Shell"
@@ -189,7 +190,7 @@ sequenceDiagram
     G-->>S: JSON Response
     S-->>A: Promise<ProblemDeconstruction>
     A->>A: setState({ deconstruction: data, currentStage: 'HYPOTHESIS' })
-    Note right of A: UI updates to show<br>Deconstruction results<br>and Hypothesis loading.
+    Note right of A: UI updates to show\nDeconstruction results\nand Hypothesis loading.
 ```
 
 ### Gemini API Integration 🤖
@@ -203,9 +204,9 @@ graph TD
     end
 
     subgraph "Google AI Platform"
-        M1["gemini-2.5-flash<br>(JSON Mode for Structure)"]
-        M2["gemini-2.5-pro<br>(Advanced Reasoning)"]
-        M3["gemini-2.5-flash<br>(w/ Google Search Tool)"]
+        M1["gemini-2.5-flash\n(JSON Mode for Structure)"]
+        M2["gemini-2.5-pro\n(Advanced Reasoning)"]
+        M3["gemini-2.5-flash\n(w/ Google Search Tool)"]
     end
     
     B -- "Deconstruct & Hypothesize" --> M1;
@@ -217,6 +218,48 @@ graph TD
     M3 -- "Streamed Response w/ Sources" --> B;
 
     B -- "Renders State Updates" --> A;
+```
+
+### Production & Future Integrations 🌐
+
+While the demo runs entirely in the browser, a production-grade OMEGA would leverage a scalable backend architecture, integrating specialized services for enhanced capabilities.
+
+```mermaid
+graph TD
+    subgraph "User Interaction"
+        User
+    end
+
+    subgraph "Frontend Layer (Google Cloud Run)"
+        App["React UI"]
+    end
+
+    subgraph "Backend AI Services (LiquidMetal Raindrop on Vultr)"
+        Orchestrator["OMEGA Orchestrator"]
+    end
+    
+    subgraph "External AI & Compute Services"
+        Gemini["Google Gemini API\n(Core Reasoning)"]
+        Cerebras["Cerebras Wafer-Scale AI\n(Large-Scale Simulation)"]
+        ElevenLabs["ElevenLabs API\n(Agent Voice Synthesis)"]
+    end
+
+    User --> App
+    App --> Orchestrator
+    
+    Orchestrator -- "Agent Logic & Reasoning" --> Gemini
+    Orchestrator -- "Simulation Agent Tasks" --> Cerebras
+    Orchestrator -- "Debate Audio Generation" --> ElevenLabs
+
+    Gemini --> Orchestrator
+    Cerebras --> Orchestrator
+    ElevenLabs --> Orchestrator
+
+    Orchestrator --> App
+
+    style User fill:#020617,stroke:#22d3ee
+    style App fill:#0f172a,stroke:#22d3ee,color:#fff
+    style Orchestrator fill:#1f2937,stroke:#a78bfa,color:#fff
 ```
 
 ---
