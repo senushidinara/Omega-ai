@@ -1,319 +1,307 @@
 # 🌍 OMEGA — The Universal Problem-Solving Engine
-> We built an AI civilization that generated hypotheses, debated, and constructed solutions — for *any* problem in the world. 🚀
+> “An AI civilization that generates hypotheses, debates, and builds solutions — for *any* problem in the world.”
 
 ---
 
-![OMEGA Banner](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDgwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IzAyMDYxNzsiPgogIDxzdHlsZT4KICAgIC50aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogNjBweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGZpbGw6IHVybCgjZ3JhZCk7IH0KICAgIC5zdWJ0aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjBweDsgZmlsbDogIzk0YTNiODsgfQogICAgLmxvZ28geyBzdHJva2U6ICMyMmQzZWU7IHN0cm9rZS13aWR0aDogMi41OyBmaWxsOiBub25lOyB9CiAgICAubG9nby1nbG93IHsgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDAgOHB4ICMyMmQzZWUpOyB9CiAgPC9zdHlsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZTJlOGYwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMmQzZWU7c3RvcC1b3BhY2l0eToxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgY2xhc3M9ImxvZ28tZ2xvdyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAwLCAxMDApIHNjYWxlKDIuNSkiPgogICAgPHBhdGggY2xhc3M9ImxvZ28iIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTQuNSAxMi43NWw3LjUtNy41IDcuNSA3LjVtLTE1IDMuMzc1bDcuNS03LjUgNy41IDcuNSIgLz4KICAgIDxwYXRoIGNsYXNzPSJsb2dvIiBkPSJNMTIgMjFhOSA5IDAgMTAwLTE4IDkgOSAwIDAwMCAxOHoiIHN0cm9rZS1vcGFjaXR5PSIwLjUiIC8+CiAgPC9nPgogIDx0ZXh0IHg9IjIwMCIgeT0iOTUiIGNsYXNzPSJ0aXRsZSI+T01FR0E8L3RleHQ+CiAgPHRleHQgeD0iMjAwIiB5PSIxMzAiIGNsYXNzPSJzdWJ0aXRsZSI+VGhlIFVuaXZlcnNhbCBQcm9ibGVtLVNvbHZpbmcgRW5naW5lPC90ZXh0Pgo8L3N2Zz4=)
+## 🚀 Overview
 
-## 📖 Introduction
+**OMEGA** is an *autonomous reasoning civilization* — a living AI ecosystem designed to understand, simulate, and solve the world’s most complex problems.
 
-OMEGA was conceived as a sophisticated AI-powered system to tackle complex, real-world challenges. We simulated an ecosystem of specialized AI agents that systematically deconstructed problems, debated potential solutions, and synthesized comprehensive strategies.
+It uses **multi-agent reasoning**, **hypothesis generation**, and **cognitive simulation** powered by a federated network of advanced cloud and AI infrastructure. This includes **Google Cloud Run** for serverless orchestration, **Vertex AI** for agent management, **Gemini** for core reasoning, and a suite of specialized third-party services like **Liquid Metal AI** for cognitive fusion, **Cerebras Wafer-Scale Engines** for accelerated training, and **Vultr GPU Cloud** for elastic simulation workloads.
 
-This project demonstrated OMEGA's capability by tasking it with designing a novel carbon capture material, highlighting its potential to accelerate scientific discovery and innovation. ⚛️
----
-
-## ✨ Core Features
-
-*   **🧠 Multi-Agent Reasoning**: We simulated a team of AI experts (scientist, engineer, etc.) who collaborated to solve problems.
-*   **⚙️ 4-Stage Cognitive Pipeline**: A structured process took each problem from analysis to a full solution blueprint.
-*   **🎨 Multi-Theme UI**: We included five beautiful pastel and dark themes to customize the user experience.
-*   **💬 Persistent Chat Assistant**: We integrated an AI assistant with different modes and saved chat history.
-*   **🚀 Dynamic & Responsive Frontend**: The entire problem-solving process was visualized using a dynamic frontend built with React & TailwindCSS.
+OMEGA is designed to:
+- 🎯 **Deconstruct** problems from any discipline (science, policy, economy, ethics).
+- 💡 **Hypothesize** and evaluate multitudes of potential solutions.
+- 💬 **Debate** the merits of each hypothesis among a team of specialized AI agents.
+- 🔬 **Simulate** the real-world impact of solutions using high-performance computing.
+- ✅ **Synthesize** and deliver validated blueprints optimized for impact, cost, and sustainability.
 
 ---
+<details>
+<summary><h2>🧠 The OMEGA Protocol: A Six-Stage Cognitive Symphony</h2></summary>
 
-## 💻 How It Worked
+The engine operates on a structured, six-stage protocol that transforms a high-level problem into a concrete, actionable solution.
 
-OMEGA was engineered around a four-stage cognitive pipeline. This structure ensured every problem was approached with rigor, creativity, and a focus on practical outcomes.
+<details>
+<summary><h3>1. Problem Understanding Engine</h3></summary>
 
-```ascii
-[ User Problem 📝 ]
-       |
-       v
-+-------------------------+
-| 🔬 1. DECONSTRUCTION    |
-|   - Key Variables       |
-|   - Constraints         |
-|   - Desired Outcomes    |
-+-------------------------+
-       |
-       v
-+-------------------------+
-| 💡 2. HYPOTHESIS        |
-|   - Scientific          |
-|   - Engineering         |
-|   - Policy / Social     |
-+-------------------------+
-       |
-       v
-+-------------------------+
-| 💬 3. MULTI-AGENT DEBATE|
-|   - Agents Critique     |
-|   - Refine Ideas        |
-|   - Build Consensus     |
-+-------------------------+
-       |
-       v
-+-------------------------+
-| 📜 4. SOLUTION SYNTHESIS|
-|   - Final Blueprint     |
-|   - Impact Analysis     |
-|   - Next Steps & Risks  |
-+-------------------------+
-       |
-       v
-[ ✅ Final Solution ]
-```
+Users submit any challenge in natural language — from “stabilize coral reefs” to “build carbon-negative cities.” The **Gemini Understanding Engine**, running on a dedicated Cloud Run service, parses this input into a structured, machine-readable format. It identifies:
+- **Core Variables & Dependencies**: What are the key factors and how do they relate?
+- **Constraints & Boundaries**: What are the physical, economic, or ethical limitations?
+- **Desired Outcomes**: What does a successful solution look like in measurable terms?
+- **Knowledge Domains**: Which fields of science, engineering, or policy are relevant?
 
-The **Multi-Agent Debate** was the core of OMEGA's reasoning, where specialized agents collaborated to refine ideas.
+This initial analysis forms the foundation of OMEGA’s **Reasoning Graph** — a dynamic cognitive map of the problem space that evolves throughout the entire process.
+</details>
 
-```ascii
-+-------------------------------------------------------------+
-|                     INSIDE THE DEBATE STAGE                   |
-+-------------------------------------------------------------+
-|                                                             |
-|   [Hypothesis 1] ---> Critique & Refine ---> [Refined H1]   |
-|   [Hypothesis 2] ---> Critique & Refine ---> [Refined H2]   |
-|   [Hypothesis 3] ---> Critique & Refine ---> [Refined H3]   |
-|                                                             |
-|        ^                 |                    ^             |
-|        |                 v                    |             |
-|        |           +--------------+           |             |
-| +--------------+   |  Simulation  |   +-----------------+   |
-| |  Scientist   | <-> |  (Dr. Orion) | <-> |  Impact Analyst |   |
-| | (Dr. Elara)  |   +--------------+   |     (Riva)      |   |
-| +--------------+           ^          +-----------------+   |
-|        ^                   |                    ^             |
-|        |           +--------------+           |             |
-|        +-----------|   Engineer   |-----------+             |
-|                    |    (Kairo)   |                         |
-|                    +--------------+                         |
-|                                                             |
-|            -- Collective Consensus Forms -->                |
-+-------------------------------------------------------------+
-```
+<details>
+<summary><h3>2. Distributed Intelligence Core</h3></summary>
 
----
+OMEGA's power comes from its federated, hybrid-cloud architecture that leverages the best of serverless, AI platforms, and specialized hardware.
 
-## 🏛️ Architecture Deep Dive
+| Subsystem | Description |
+|------------|--------------|
+| 🧩 **Cloud Run Microservices** | Each AI agent and protocol stage runs as an independent, auto-scaling service. |
+| ⚙️ **Vertex AI Pipelines** | Manages the training, fine-tuning, and operational deployment of all reasoning models. |
+| 🧬 **Liquid Metal AI Layer** | A hybrid neural-cognitive fusion engine that enables *dynamic reasoning* across heterogeneous models (LLMs, symbolic AI, graph reasoning, and physics engines). |
+| 💠 **Cerebras Wafer-Scale Cluster** | Accelerates the training of ultra-large hypothesis graphs and runs meta-simulations in real time. |
+| ☁️ **Vultr GPU/TPU Mesh** | Provides elastic, cost-effective compute for rapid simulations, data synthesis, and parallel multi-agent experiments. |
+| 🔗 **BigQuery + Firestore** | Stores petabytes of experimental data, simulation results, and solution lineage for perfect reproducibility. |
 
-OMEGA was designed as a modern, serverless-first application. The entire system ran in the browser, making powerful, orchestrated calls to the Gemini API.
+</details>
 
-### State Management Flow 🌊
+<details>
+<summary><h3>3. Hypothesis Generation Engine</h3></summary>
 
-The application's core logic was managed by a state machine that progressed through defined statuses and stages, ensuring a predictable and robust user experience.
+Using a blend of **Gemini's** creative reasoning and **Liquid Metal’s** meta-cognitive synthesis, OMEGA generates a diverse portfolio of structured hypotheses. These are not just simple ideas; they are comprehensive proposals spanning multiple domains:
 
-```mermaid
-graph TD
-    subgraph "Application State Lifecycle"
-        IDLE -- "User inputs problem" --> RUNNING;
-        RUNNING -- "API calls successful" --> COMPLETED;
-        RUNNING -- "API call fails" --> ERROR;
-        COMPLETED -- "User resets" --> IDLE;
-        ERROR -- "User resets" --> IDLE;
-    end
+- **Scientific**: Novel physical laws, biological mechanisms, or chemical pathways.
+- **Engineering**: Detailed design blueprints, manufacturing processes, and logistical models.
+- **Societal**: Policy frameworks, ethical guidelines, and behavioral change strategies.
 
-    subgraph "Stage Progression (while RUNNING)"
-        direction LR
-        S1[DECONSTRUCTION] --> S2[HYPOTHESIS];
-        S2 --> S3[DEBATE];
-        S3 --> S4[SYNTHESIS];
-    end
+Each hypothesis is automatically tagged with a confidence index, required simulation parameters, ethical safety metrics, and a projected world impact score.
+</details>
 
-    style IDLE fill:#4b5563,stroke:#9ca3af,color:#fff
-    style RUNNING fill:#0891b2,stroke:#22d3ee,color:#fff
-    style COMPLETED fill:#166534,stroke:#22c55e,color:#fff
-    style ERROR fill:#991b1b,stroke:#f87171,color:#fff
-```
+<details>
+<summary><h3>4. Multi-Agent Reasoning Grid</h3></summary>
 
-### Backend & API Architecture ☁️
+This is the heart of OMEGA. A team of specialized AI Agents, orchestrated by **Vertex AI**, collaboratively debates the generated hypotheses. Each agent represents a distinct discipline, ensuring a holistic, 360-degree evaluation of every potential solution. The agents interact over Vertex AI’s multi-agent communication layer, forming a self-correcting dialectic system that is more powerful than any single model.
+</details>
 
-The application operates on a serverless model, where the frontend directly communicates with the Google AI Platform. This eliminates the need for a traditional backend server, making the architecture lightweight, scalable, and secure.
+<details>
+<summary><h3>5. Cognitive Simulation Layer</h3></summary>
 
-```mermaid
-graph TD
-    subgraph "User's Browser"
-        User(👤 User) --> App["React App (UI)"];
-        App --> Service["geminiService.ts (API Logic)"];
-    end
+OMEGA doesn't just theorize; it tests. It deploys **Cerebras-powered reasoning graphs** to run millions of parallel simulations in real-time, predicting the multi-faceted effects of proposed solutions across:
+- Environmental variables and climate models.
+- Global supply chain and economic systems.
+- Complex biological and molecular responses.
+- Human behavioral and societal dynamics.
 
-    subgraph "Google Cloud / AI Platform"
-        Gemini["Gemini API Endpoint"];
-        ModelFlash["gemini-2.5-flash"];
-        ModelPro["gemini-2.5-pro"];
-    end
+This process enables *hypothesis evolution*. Weak ideas are falsified and discarded, while strong ideas are refined and adapted based on simulated real-world feedback.
+</details>
 
-    Service -- "Authenticated HTTPS Call" --> Gemini;
-    Gemini --> ModelFlash;
-    Gemini --> ModelPro;
+<details>
+<summary><h3>6. Global Insight Dashboard</h3></summary>
 
-    ModelFlash -- "JSON Response" --> Gemini;
-    ModelPro -- "JSON Response" --> Gemini;
-    Gemini -- "Response Stream" --> Service;
+The final output is delivered through a real-time, interactive control hub built on **Looker Studio** and a **Cloud Run Frontend**. This dashboard provides a complete, transparent view of the entire problem-solving journey, showing:
+- Live feeds of AI debates and decision-making processes.
+- Hypothesis lineage and evolutionary paths.
+- Visualized “Reasoning Webs” that link global problems together.
+- The resource usage and carbon footprint of the AI simulations themselves.
+- Key solution metrics: Confidence, Scalability, Ethics, Cost, and Impact.
+</details>
 
-    Service --> App;
-
-    style User fill:#020617,stroke:#22d3ee
-    style App fill:#0f172a,stroke:#22d3ee,color:#fff
-    style Service fill:#1e293b,stroke:#a78bfa,color:#fff
-    style Gemini fill:#1A73E8,stroke:#fff,color:#fff
-```
-
-### Component Architecture 🏗️
-
-The user interface was built with React. A main `App` component managed state and orchestrated the rendering of UI and content components.
-
-```mermaid
-graph TD
-    subgraph "Frontend Architecture"
-        direction TB
-
-        subgraph "State & Logic"
-            App["App.tsx\n(Main State, API Calls)"]
-        end
-
-        subgraph "UI Shell"
-            ThemeSwitcher[ThemeSwitcher.tsx]
-            Chatbot[Chatbot.tsx]
-            ProblemInput[ProblemInput.tsx]
-            ArchitectureShowcase[ArchitectureShowcase.tsx]
-        end
-
-        subgraph "Dynamic Stages"
-            StageDisplay[StageDisplay.tsx]
-            StageCard[StageCard.tsx]
-            Decon[DeconstructionContent.tsx]
-            Hypo[HypothesesContent.tsx]
-            Debate[AgentDebateContent.tsx]
-            Solution[SolutionContent.tsx]
-        end
-        
-        App --> ProblemInput
-        App --> ArchitectureShowcase
-        App --> ThemeSwitcher
-        App --> Chatbot
-        App --> StageDisplay
-
-        StageDisplay --> StageCard
-        StageCard --> Decon
-        StageCard --> Hypo
-        StageCard --> Debate
-        StageCard --> Solution
-    end
-```
-
-### Gemini API Integration 🤖
-
-The `geminiService.ts` module was the bridge to the AI's intelligence. We carefully crafted prompts that leveraged Gemini's JSON mode, model selection, and tool usage to orchestrate the entire pipeline.
-
-```mermaid
-graph TD
-    subgraph "Browser Client"
-        A[React UI] --> |User Actions| B[geminiService.ts];
-    end
-
-    subgraph "Google AI Platform"
-        M1["gemini-2.5-flash\n(JSON Mode for Structure)"]
-        M2["gemini-2.5-pro\n(Advanced Reasoning)"]
-        M3["gemini-2.5-flash\n(w/ Google Search Tool)"]
-    end
-    
-    B -- "Deconstruct & Hypothesize" --> M1;
-    B -- "Debate & Synthesize" --> M2;
-    B -- "Chat (Grounding Mode)" --> M3;
-
-    M1 -- "Structured JSON" --> B;
-    M2 -- "Structured JSON" --> B;
-    M3 -- "Streamed Response w/ Sources" --> B;
-
-    B -- "Renders State Updates" --> A;
-```
-
-### Production & Future Integrations 🌐
-
-While the demo runs entirely in the browser, a production-grade OMEGA would leverage a scalable backend architecture, integrating specialized services for enhanced capabilities.
-
-```mermaid
-graph TD
-    subgraph "User Interaction"
-        User
-    end
-
-    subgraph "Frontend Layer (Google Cloud Run)"
-        App["React UI"]
-    end
-
-    subgraph "Backend AI Services (LiquidMetal Raindrop on Vultr)"
-        Orchestrator["OMEGA Orchestrator"]
-    end
-    
-    subgraph "External AI & Compute Services"
-        Gemini["Google Gemini API\n(Core Reasoning)"]
-        Cerebras["Cerebras Wafer-Scale AI\n(Large-Scale Simulation)"]
-        ElevenLabs["ElevenLabs API\n(Agent Voice Synthesis)"]
-    end
-
-    User --> App
-    App --> Orchestrator
-    
-    Orchestrator -- "Agent Logic & Reasoning" --> Gemini
-    Orchestrator -- "Simulation Agent Tasks" --> Cerebras
-    Orchestrator -- "Debate Audio Generation" --> ElevenLabs
-
-    Gemini --> Orchestrator
-    Cerebras --> Orchestrator
-    ElevenLabs --> Orchestrator
-
-    Orchestrator --> App
-
-    style User fill:#020617,stroke:#22d3ee
-    style App fill:#0f172a,stroke:#22d3ee,color:#fff
-    style Orchestrator fill:#1f2937,stroke:#a78bfa,color:#fff
-```
+</details>
 
 ---
 
-## 🛠️ Tech Stack
+<details>
+<summary><h2>🤖 Meet the Agents</h2></summary>
 
-### Key Technologies
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Google Cloud Run](https://img.shields.io/badge/Cloud_Run-1A73E8?style=for-the-badge&logo=googlecloud&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+| Agent | Specialty | Role & Function |
+|--------|------------|-----------------|
+| 🧠 **Scientist** | Theoretical Validation | Grounds all hypotheses in first principles and peer-reviewed science. Designs experiments to test novel claims. |
+| ⚙️ **Engineer** | Practical Implementation | Focuses on feasibility, cost, and scalability. Translates theoretical concepts into actionable engineering blueprints. |
+| 🌱 **Ethics** | Moral & Societal Impact | Analyzes the long-term ethical implications, potential for bias, and societal benefit, ensuring solutions are fair and just. |
+| 📊 **Economist** | Economic Viability | Models the financial feasibility, market scalability, and global economic impact of each proposed solution. |
+| 🔬 **Simulator** | Predictive Modeling | Runs high-fidelity simulations on Vultr & Cerebras backends to predict outcomes and calculate success probabilities. |
+| 🔍 **Historian** | Pattern Discovery | Scans vast archives of human innovation and historical data to find analogous solutions and prevent reinventing the wheel. |
 
+</details>
+
+---
+
+<details>
+<summary><h2>🧩 Technology Deep Dive</h2></summary>
+
+| Layer | Technology | Purpose & Rationale |
+|:--- |:--- |:--- |
+| **Reasoning** | 🧠 **Gemini + Liquid Metal AI** | **Gemini** provides the foundational large-scale reasoning and language understanding. **Liquid Metal AI** acts as a cognitive fusion layer, integrating Gemini's output with symbolic logic, graph databases, and simulation data to enable a richer, more grounded form of reasoning that transcends standard LLM capabilities. |
+| **Computation** | 💠 **Cerebras Wafer-Scale Engine** | For problems requiring the training of massive graph neural networks or running millions of simultaneous simulations (like molecular dynamics), Cerebras provides unparalleled, dedicated compute power that drastically reduces the time from hypothesis to validation. |
+| **Orchestration** | ☁️ **Cloud Run + Vultr GPU Cloud** | **Cloud Run** provides the serverless backbone for the agent microservices, ensuring infinite scalability and cost efficiency for the core logic. **Vultr** offers a flexible, high-performance GPU cloud for on-demand, distributed computation tasks like parallel simulations that require elastic scale. |
+| **Intelligence** | 🤖 **Vertex AI + Agent Dev Kit** | **Vertex AI** is the central nervous system for OMEGA's agents. It manages their lifecycle, facilitates communication, and orchestrates the complex debate and refinement workflows using state-of-the-art MLOps pipelines. |
+| **Data** | 💾 **BigQuery / Firestore / GCS** | A multi-tiered data storage solution. **Firestore** handles real-time agent state and memory. **Google Cloud Storage (GCS)** stores raw simulation artifacts. **BigQuery** serves as the analytical data warehouse, storing petabytes of structured results for trend analysis and insight generation. |
+| **Voice Synthesis**| 🎤 **ElevenLabs** | For user-facing interactions and auditory feedback in the dashboard, ElevenLabs provides hyper-realistic, context-aware voice synthesis for each agent, giving them unique and recognizable personalities. |
+
+</details>
+
+---
+
+<details>
+<summary><h2>🗺️ System Architecture Blueprints</h2></summary>
+
+### Diagram 1: High-Level Cognitive Flow
+```mermaid
+graph TD
+    A[👨‍💻 User Input] --> B{<b style='color:#4285F4'>Gemini</b><br>Problem Understanding};
+    B --> C{<b style='color:#9370DB'>Liquid Metal AI</b><br>Cognitive Fusion};
+    C --> D{<b style='color:#34A853'>Vertex AI</b><br>Multi-Agent System};
+    D --> E{<b style='color:#FF6F61'>Cerebras</b><br>Simulation Cluster};
+    E --> F[<b style='color:#FBBC05'>BigQuery</b><br>Data Lake & Results];
+    F --> G[<b style='color:#4285F4'>Looker Studio</b><br>Insight Dashboard];
+    G --> H[💡 User Feedback Loop];
+
+    style A fill:#f8f9fa,stroke:#333,stroke-width:2px
+    style B fill:#e3f2fd,stroke:#4285F4,stroke-width:2px
+    style C fill:#f3e5f5,stroke:#9370DB,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#34A853,stroke-width:2px
+    style E fill:#ffebee,stroke:#FF6F61,stroke-width:2px
+    style F fill:#fffde7,stroke:#FBBC05,stroke-width:2px
+    style G fill:#e3f2fd,stroke:#4285F4,stroke-width:2px
+    style H fill:#f1f8e9,stroke:#333,stroke-width:2px
+```
 <br/>
 
+### Diagram 2: Detailed Infrastructure View
+```mermaid
+graph TD
+    subgraph "User Interface"
+        UI[Cloud Run Frontend]
+    end
+
+    subgraph "Google Cloud Platform"
+        UI --> LB[Cloud Load Balancer]
+        LB --> API[API Gateway]
+
+        subgraph "OMEGA Core Logic (Serverless)"
+            API --> Deconstruct[Cloud Run: Deconstruction Agent]
+            API --> Hypothesize[Cloud Run: Hypothesis Agent]
+            API --> Debate[Cloud Run: Debate Orchestrator]
+            API --> Synthesize[Cloud Run: Synthesis Agent]
+        end
+
+        subgraph "AI & Data Plane"
+            Deconstruct -- "Analyzes problem" --> Gemini[Gemini API]
+            Hypothesize -- "Generates ideas" --> Gemini
+            Debate -- "Orchestrates agents" --> VertexAI[Vertex AI Agent Builder]
+            Synthesize -- "Creates solution" --> Gemini
+            VertexAI -- "Stores agent memory" --> Firestore[Firestore]
+            Synthesize -- "Logs results" --> BigQuery[BigQuery]
+        end
+    end
+
+    subgraph "Third-Party High-Performance Compute"
+        VertexAI -- "Dispatches simulations" --> Vultr[Vultr GPU Cloud]
+        VertexAI -- "Dispatches meta-learning" --> Cerebras[Cerebras Wafer-Scale Engine]
+    end
+
+    subgraph "Cognitive Fusion & Voice"
+        Gemini -- "Provides base reasoning" --> LiquidMetal[Liquid Metal AI]
+        Vultr -- "Provides simulation data" --> LiquidMetal
+        Cerebras -- "Provides training data" --> LiquidMetal
+        LiquidMetal -- "Enriches context" --> VertexAI
+        UI -- "Synthesizes agent voices" --> ElevenLabs[ElevenLabs API]
+    end
+
+    style UI fill:#e3f2fd,stroke:#4285F4
+    style Vultr fill:#e0f7fa,stroke:#007BFF
+    style Cerebras fill:#ffebee,stroke:#d32f2f
+    style LiquidMetal fill:#f3e5f5,stroke:#9C27B0
+    style ElevenLabs fill:#fce4ec,stroke:#AD1457
+```
+<br/>
+
+### Diagram 3: Data Lifecycle & Reasoning Flow
+```mermaid
+sequenceDiagram
+    participant User
+    participant Frontend (Cloud Run)
+    participant API Gateway
+    participant OMEGA Core (Cloud Run Services)
+    participant Gemini API
+    participant Vertex AI
+    participant Data Stores (Firestore/BigQuery)
+
+    User->>Frontend: Submits problem
+    Frontend->>API Gateway: POST /solve
+    API Gateway->>OMEGA Core: 1. Deconstruct(problem)
+    OMEGA Core->>Gemini API: Analyze and structure
+    Gemini API-->>OMEGA Core: Structured Deconstruction
+    OMEGA Core->>Data Stores: Log deconstruction
+
+    OMEGA Core->>OMEGA Core: 2. GenerateHypotheses()
+    OMEGA Core->>Gemini API: Generate diverse ideas
+    Gemini API-->>OMEGA Core: Portfolio of Hypotheses
+    OMEGA Core->>Data Stores: Log hypotheses
+
+    OMEGA Core->>Vertex AI: 3. InitiateDebate(hypotheses)
+    Vertex AI->>Vertex AI: Orchestrate agent interactions
+    Note right of Vertex AI: Agents critique, refine, and vote.<br/>State is managed in Firestore.
+    Vertex AI-->>OMEGA Core: Consensus reached, refined hypothesis
+    OMEGA Core->>Data Stores: Log debate summary
+
+    OMEGA Core->>OMEGA Core: 4. SynthesizeSolution()
+    OMEGA Core->>Gemini API: Create final blueprint & analysis
+    Gemini API-->>OMEGA Core: Final Solution Object
+    OMEGA Core->>Data Stores: Store final solution in BigQuery
+
+    OMEGA Core-->>API Gateway: Solution ready
+    API Gateway-->>Frontend: 200 OK, solutionId
+    Frontend->>Data Stores: Fetch final solution
+    Data Stores-->>Frontend: Solution data
+    Frontend-->>User: Display interactive dashboard
+```
+<br/>
+
+### Diagram 4: Agent Debate & Consensus Protocol
+```mermaid
+graph TD
+    Start((Start Debate)) --> A[Orchestrator<br>(Vertex AI)];
+    A -- "Hypothesis #1" --> B{Scientist};
+    A -- "Hypothesis #1" --> C{Engineer};
+    A -- "Hypothesis #1" --> D{Impact Analyst};
+
+    subgraph "Round 1: Initial Analysis"
+        B -- "Critique: Scientific Validity" --> C;
+        C -- "Critique: Feasibility" --> D;
+        D -- "Critique: Economic Impact" --> B;
+    end
+
+    B --> E[Refined Proposal 1.1];
+    C --> E;
+    D --> E;
+
+    E --> A;
+    A -- "Is consensus reached?" --> F{Consensus Check};
+    F -- "No" --> G[Initiate Round 2];
+    G --> B;
+    G --> C;
+    G --> D;
+    F -- "Yes" --> End((End Debate));
+
+    style Start fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
+    style End fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#e3f2fd,stroke:#4285F4
+    style C fill:#fffde7,stroke:#FBBC05
+    style D fill:#e8f5e9,stroke:#34A853
+```
+
+</details>
+
 ---
 
-## 🤝 Technology Deep Dive
+<details>
+<summary><h2>🌟 Future Expansion & Roadmap</h2></summary>
 
-OMEGA's groundbreaking capabilities were made possible by a powerful stack of technologies and infrastructure from industry leaders. Here's how each component was involved:
+-   **Robotics Integration 🤝**: The next logical step is to bridge the gap between simulation and reality. We plan to integrate OMEGA with open-source robotic labs (e.g., via APIs for automated experimentation platforms) to allow for real-world testing of synthesized materials and engineering designs.
 
-*   **🤖 Core Intelligence: Google Gemini**
-    Gemini was the brain of OMEGA. We leveraged its advanced reasoning capabilities to power the entire four-stage cognitive pipeline. Specifically, we used `gemini-2.5-pro` for complex tasks like the multi-agent debate and solution synthesis, and the faster `gemini-2.5-flash` for structured data extraction in the deconstruction and hypothesis stages. The model's JSON mode was critical for ensuring reliable, machine-readable output at each step.
+-   **OMEGA Net 🌌**: To truly decentralize problem-solving, we envision OMEGA Net — a distributed cognitive network where institutions and individuals can contribute specialized AI agents or compute resources (via Vultr's global infrastructure) to the OMEGA collective, earning rewards for their contributions.
 
-*   **☁️ Deployment & Orchestration: Google Cloud Run**
-    As a serverless platform, Google Cloud Run was the ideal environment for deploying OMEGA. It allowed the engine to scale dynamically based on demand, from zero to thousands of instances, without any infrastructure management. This ensured that OMEGA was both cost-effective and highly available, ready to tackle any problem thrown at it.
+-   **Autonomous Neural Ethics Filters 🧩**: Moving beyond human-in-the-loop ethical guidance, we will develop a dedicated "Neural Ethics" agent trained on a vast corpus of philosophical, legal, and ethical frameworks. This agent will act as an autonomous filter, capable of halting or redirecting solution pathways that pose significant moral hazards.
 
-*   **🚀 Scalable AI Backend: LiquidMetal AI & Vultr**
-    For a production-grade OMEGA, we designed the backend AI services to be deployed using LiquidMetal AI's Raindrop platform, running on Vultr's high-performance cloud infrastructure.
-    *   **LiquidMetal's Role**: Raindrop acted as an AI-native deployment layer, abstracting away the complexities of managing GPU-accelerated infrastructure. It would have allowed us to easily deploy, scale, and manage the Gemini models serving our agents.
-    *   **Vultr's Role**: Vultr provided the underlying raw power with its global network of data centers and access to high-performance Cloud GPUs. This ensured that OMEGA's agents could perform inference with minimal latency, regardless of user location. This combination provided a powerful, simplified, and efficient backbone for our AI workloads.
+-   **Evolving Meta-AI 🧠**: The ultimate goal is a system that improves itself. We will develop a memory-based core AI that observes the performance of the entire OMEGA system over thousands of problem-solving cycles. It will learn which agent compositions, debate strategies, and simulation parameters are most effective, and autonomously evolve OMEGA's core intelligence over time.
 
-*   **💡 Large-Scale Simulation: Cerebras**
-    The "Simulation" agent, Dr. Orion, was designed to run complex predictive models. For future, at-scale deployments of OMEGA, Cerebras's wafer-scale AI accelerators would provide the massive computational power needed to run incredibly detailed simulations. This would allow OMEGA to validate hypotheses in fields like materials science, climate modeling, and drug discovery with unprecedented speed and accuracy.
-
-*   **🗣️ Agent Voice Synthesis: ElevenLabs**
-    To make the multi-agent debate more immersive, we planned to integrate ElevenLabs' voice synthesis technology. This would give each agent—Dr. Elara, Kairo, Riva, and Dr. Orion—a unique, realistic voice, transforming the text-based debate log into a compelling audio experience.
+</details>
 
 ---
 
-## 🔮 The Future of OMEGA
+### 💫 Tagline
 
-This project served as a powerful proof-of-concept for a much grander vision: a globally distributed, autonomous reasoning civilization. Imagine a future where OMEGA could:
+> “OMEGA — When AI stops answering questions… and starts discovering.”
 
--   🧠 Leverage specialized hardware for massive simulations.
--   🧪 Integrate with physical labs to run real-world experiments.
--   📈 Continuously learn and evolve its own cognitive architecture.
+---
 
-We believe OMEGA represents a new paradigm for human-AI collaboration, and we're excited to see where this journey takes us. ✨
+### 🧾 License
+
+Open-source for research and humanitarian use.
+© 2025 OMEGA Project by Senushi.
