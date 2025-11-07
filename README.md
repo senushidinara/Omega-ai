@@ -133,12 +133,12 @@ The final output is delivered through a real-time, interactive control hub built
 ### Diagram 1: 🌐 High-Level Cognitive Flow
 ```mermaid
 graph TD
-    A[👨‍💻 User Input] --> B{<b style='color:#4285F4'>Gemini</b><br>Problem Understanding};
-    B --> C{<b style='color:#9370DB'>Liquid Metal AI</b><br>Cognitive Fusion};
-    C --> D{<b style='color:#34A853'>Vertex AI</b><br>Multi-Agent System};
-    D --> E{<b style='color:#FF6F61'>Cerebras</b><br>Simulation Cluster};
-    E --> F[<b style='color:#FBBC05'>BigQuery</b><br>Data Lake & Results];
-    F --> G[<b style='color:#4285F4'>Looker Studio</b><br>Insight Dashboard];
+    A[👨‍💻 User Input] --> B{"<b style='color:#4285F4'>Gemini</b><br>Problem Understanding"};
+    B --> C{"<b style='color:#9370DB'>Liquid Metal AI</b><br>Cognitive Fusion"};
+    C --> D{"<b style='color:#34A853'>Vertex AI</b><br>Multi-Agent System"};
+    D --> E{"<b style='color:#FF6F61'>Cerebras</b><br>Simulation Cluster"};
+    E --> F["<b style='color:#FBBC05'>BigQuery</b><br>Data Lake & Results"];
+    F --> G["<b style='color:#4285F4'>Looker Studio</b><br>Insight Dashboard"];
     G --> H[💡 User Feedback Loop];
 
     style A fill:#f8f9fa,stroke:#333,stroke-width:2px
@@ -246,7 +246,7 @@ sequenceDiagram
 ### Diagram 4: 🗣️ Agent Debate & Consensus Protocol
 ```mermaid
 graph TD
-    Start((Start Debate)) --> A[Orchestrator<br>(Vertex AI)];
+    Start((Start Debate)) --> A["Orchestrator<br>(Vertex AI)"];
     A -- "Hypothesis #1" --> B{Scientist};
     A -- "Hypothesis #1" --> C{Engineer};
     A -- "Hypothesis #1" --> D{Impact Analyst};
