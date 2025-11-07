@@ -3,14 +3,13 @@
 
 ---
 
-![OMEGA Banner](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDgwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IzAyMDYxNzsiPgogIDxzdHlsZT4KICAgIC50aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogNjBweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGZpbGw6IHVybCgjZ3JhZCk7IH0KICAgIC5zdWJ0aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjBweDsgZmlsbDogIzk0YTNiODsgfQogICAgLmxvZ28geyBzdHJva2U6ICMyMmQzZWU7IHN0cm9rZS13aWR0aDogMi41OyBmaWxsOiBub25lOyB9CiAgICAubG9nby1nbG93IHsgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDAgOHB4ICMyMmQzZWUpOyB9CiAgPC9zdHlsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZTJlOGYwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMmQzZWU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8ZyBjbGFzcz0ibG9nby1nbG93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAsIDEwMCkgc2NhbGUoMi41KSI+CiAgICA8cGF0aCBjbGFzcz0ibG9nbyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNC41IDEyLjc1bDcuNS03LjUgNy41IDcuNW0tMTUgMy4zNzVsNy41LTcuNSA3LjUgNy41IiAvPgogICAgPHBhdGggY2xhc3M9ImxvZ28iIGQ9Ik0xMiAyMWE5IDkgMCAxMDAtMTggOSA5IDAgMDAwIDE4eiIgc3Ryb2tlLW9wYWNpdHk9IjAuNSIgLz4KICA8L2c+CiAgPHRleHQgeD0iMjAwIiB5PSI5NSIgY2xhc3M9InRpdGxlIj5PTUVHQTwvdGV4dD4KICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgY2xhc3M9InN1bnRpdGxlIj5UaGUgVW5pdmVyc2FsIFByb2JsZW0tU29sdmluZyBFbmdpbmU8L3RleHQ+Cjwvc3ZnPg==)
+![OMEGA Banner](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDgwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IzAyMDYxNzsiPgogIDxzdHlsZT4KICAgIC50aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogNjBweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGZpbGw6IHVybCgjZ3JhZCk7IH0KICAgIC5zdWJ0aXRsZSB7IGZvbnQtZmFtaWx5OiAnU3BhY2UgR3JvdGVzaycsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjBweDsgZmlsbDogIzk0YTNiODsgfQogICAgLmxvZ28geyBzdHJva2U6ICMyMmQzZWU7IHN0cm9rZS13aWR0aDogMi41OyBmaWxsOiBub25lOyB9CiAgICAubG9nby1nbG93IHsgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDAgOHB4ICMyMmQzZWUpOyB9CiAgPC9zdHlsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZTJlOGYwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMmQzZWU7c3RvcC1b3BhY2l0eToxIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgY2xhc3M9ImxvZ28tZ2xvdyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAwLCAxMDApIHNjYWxlKDIuNSkiPgogICAgPHBhdGggY2xhc3M9ImxvZ28iIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTQuNSAxMi43NWw3LjUtNy41IDcuNSA3LjVtLTE1IDMuMzc1bDcuNS03LjUgNy41IDcuNSIgLz4KICAgIDxwYXRoIGNsYXNzPSJsb2dvIiBkPSJNMTIgMjFhOSA5IDAgMTAwLTE4IDkgOSAwIDAwMCAxOHoiIHN0cm9rZS1vcGFjaXR5PSIwLjUiIC8+CiAgPC9nPgogIDx0ZXh0IHg9IjIwMCIgeT0iOTUiIGNsYXNzPSJ0aXRsZSI+T01FR0E8L3RleHQ+CiAgPHRleHQgeD0iMjAwIiB5PSIxMzAiIGNsYXNzPSJzdWJ0aXRsZSI+VGhlIFVuaXZlcnNhbCBQcm9ibGVtLVNvbHZpbmcgRW5naW5lPC90ZXh0Pgo8L3N2Zz4=)
 
 ## 📖 Introduction
 
 OMEGA was conceived as a sophisticated AI-powered system to tackle complex, real-world challenges. We simulated an ecosystem of specialized AI agents that systematically deconstructed problems, debated potential solutions, and synthesized comprehensive strategies.
 
 This project demonstrated OMEGA's capability by tasking it with designing a novel carbon capture material, highlighting its potential to accelerate scientific discovery and innovation. ⚛️
-
 ---
 
 ## ✨ Core Features
@@ -127,6 +126,39 @@ graph TD
     style ERROR fill:#991b1b,stroke:#f87171,color:#fff
 ```
 
+### Backend & API Architecture ☁️
+
+The application operates on a serverless model, where the frontend directly communicates with the Google AI Platform. This eliminates the need for a traditional backend server, making the architecture lightweight, scalable, and secure.
+
+```mermaid
+graph TD
+    subgraph "User's Browser"
+        User(👤 User) --> App["React App (UI)"];
+        App --> Service["geminiService.ts (API Logic)"];
+    end
+
+    subgraph "Google Cloud / AI Platform"
+        Gemini["Gemini API Endpoint"];
+        ModelFlash["gemini-2.5-flash"];
+        ModelPro["gemini-2.5-pro"];
+    end
+
+    Service -- "Authenticated HTTPS Call" --> Gemini;
+    Gemini --> ModelFlash;
+    Gemini --> ModelPro;
+
+    ModelFlash -- "JSON Response" --> Gemini;
+    ModelPro -- "JSON Response" --> Gemini;
+    Gemini -- "Response Stream" --> Service;
+
+    Service --> App;
+
+    style User fill:#020617,stroke:#22d3ee
+    style App fill:#0f172a,stroke:#22d3ee,color:#fff
+    style Service fill:#1e293b,stroke:#a78bfa,color:#fff
+    style Gemini fill:#1A73E8,stroke:#fff,color:#fff
+```
+
 ### Component Architecture 🏗️
 
 The user interface was built with React. A main `App` component managed state and orchestrated the rendering of UI and content components.
@@ -168,29 +200,6 @@ graph TD
         StageCard --> Debate
         StageCard --> Solution
     end
-```
-
-### Data Flow (Single Stage Example) ➡️
-
-This sequence diagram illustrates how the UI, service layer, and Gemini API interacted during the first stage of the process. This pattern was repeated for each subsequent stage.
-
-```mermaid
-sequenceDiagram
-    actor User
-    participant C as ProblemInput.tsx
-    participant A as App.tsx
-    participant S as geminiService.ts
-    participant G as Gemini API
-
-    User->>C: Types problem and clicks "Solve"
-    C->>A: onSolve(problem)
-    A->>A: setState({ status: 'RUNNING', currentStage: 'DECONSTRUCTION' })
-    A->>S: deconstructProblem(problem)
-    S->>G: generateContent(prompt)
-    G-->>S: JSON Response
-    S-->>A: Promise<ProblemDeconstruction>
-    A->>A: setState({ deconstruction: data, currentStage: 'HYPOTHESIS' })
-    Note right of A: UI updates to show\nDeconstruction results\nand Hypothesis loading.
 ```
 
 ### Gemini API Integration 🤖
